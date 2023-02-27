@@ -1,4 +1,4 @@
-Albaania-Tirana
+﻿Albaania-Tirana
 Andorra-Andorra_la_Vella
 Armeenia-Jerevan
 Aserbaidžaan-Bakuu
@@ -6,7 +6,6 @@ Austria-Viin
 Belgia-Brüssel
 Bosnia_ja_Hertsegoviina-Sarajevo
 Bulgaaria-Sofia
-Eesti-Tallinn
 Gruusia-Thbilisi
 Hispaania-Madrid
 Horvaatia-Zagreb
@@ -47,4 +46,5 @@ Ukraina-Kiiev
 Ungari-Budapest
 Valgevene-Minsk
 Vatikan-Vatican
-Venemaa-Moskva
+Russia-Moscow
+Estonia-Valga
