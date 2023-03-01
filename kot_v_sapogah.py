@@ -34,6 +34,7 @@ def otsi(x:dict,x1:dict):
                     p=sona 
                     r=input("Kirjutage riigi ")
                 x.update({r:p}) 
+                x1.update({p:r})
             else:
                 print("Kahjuks")
         else:
@@ -62,12 +63,16 @@ def paranda(x:dict,x1:dict):
         sona1=x.get(sona)
         x.pop(sona)
         x1.pop(sona1)
+        print(sona)
+        print(sona1)
         r=input("Kirjutage parandatud riigi ") 
         kus=input("Kas soovite parandada ka pealinn? (jah või ei) ").lower() 
         while kus not in ["jah","ei"]:
             kus=input("Kirjutage ainult jah või ei ").lower()
         if kus=="jah":
             p=input("Kirjutage parandatud pealinn ")
+        else:
+            p=sona1
     else:
         sona1=x1.get(sona)
         x.pop(sona1)
@@ -78,6 +83,8 @@ def paranda(x:dict,x1:dict):
             kus=input("Kirjutage ainult jah või ei ").lower()
         if kus=="jah":
             r=input("Kirjutage parandatud riik ") 
+        else:
+            r=sona1      
     x.update({r:p}) 
     x1.update({p:r})
     return x,x1
